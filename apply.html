@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/styles.css">
+        <title>GnobmelStore Website</title>
+    </head>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html" class="nav__logo">GnobmelStore</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="location.html" class="nav__link">Store Location</a></li>
+                        <li class="nav__item"><a href="career.html" class="nav__link active">Career</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="bx bx-cart nav__cart"></i>
+                    <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
+                </div>
+            </nav>
+        </header>
+    <body>
+        <main class="l-main">
+            <center>
+                <section class="employee-registration section">
+                    <div class="employee-registration__container bd-grid">
+                        <h2 class="section-title">Apply Career Registration</h2>
+                        <form action="#" method="post" enctype="multipart/form-data" style="max-width: 400px; margin: auto;">
+                            <label for="fullName">Full Name:</label>
+                            <input type="text" id="fullName" name="fullName" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+    
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+                            
+                            <label for="email">Alamat:</label>
+                            <input type="text" id="alamat" name="alamat" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+                            <label for="position">Position:</label>
+                            <input type="text" id="position" name="position" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+    
+                            <label for="cv">Upload CV:</label>
+                            <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+    
+                            <button type="button" onclick="showConfirmation()" style="background-color: #000; color: #fff; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">Apply</button>
+                        </form>
+                    </div>
+                </section>
+            </center>
+        </main>
+    </body>
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__box">
+                    <h3 class="footer__title">GnobmelStore</h3>
+                    <ul>
+                        <li><a href="https://shopee.co.id/shop/149384941?utm_campaign=-&utm_content=----&utm_medium=affiliates&utm_source=an_11067650011&utm_term=a6t6s9xtfi2s" class="footer__link">Buy via Shopee</a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=6281999564584&text&type=phone_number&app_absent=0" class="footer__link">Buy via WhatsAp</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__title">EXPLORE</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Home</a></li>
+                        <li><a href="#" class="footer__link">Featured</a></li>
+                        <li><a href="#" class="footer__link">New</a></li>
+                        <li><a href="#" class="footer__link">Subscribe</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__title">OUR SERVICES</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                        <li><a href="#" class="footer__link">Free Shipping</a></li>
+                        <li><a href="#" class="footer__link">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__title">FOLLOW</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; 2023 GnobmelStore Website copyright all rights reserved.</p>
+        </footer>
+        <script src="js/main.js"></script>
+        <script>
+            function showConfirmation() {
+                alert("Lamaran anda sudah kami terima, kami akan menghubungi anda segera!!");
+            }
+        </script>
+</html>
